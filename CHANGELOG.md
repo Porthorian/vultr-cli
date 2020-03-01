@@ -1,5 +1,48 @@
 # Change Log
 
+## [v0.1.11](https://github.com/vultr/vultr-cli/compare/v0.1.10..v0.1.11) (2019-12-09)
+### Bug fix
+* Fix error message on network create [PR 65](https://github.com/vultr/vultr-cli/pull/65)
+
+## [v0.1.10](https://github.com/vultr/vultr-cli/compare/v0.1.9..v0.1.10) (2019-11-12)
+### Bug fix
+* GoVultr v0.1.7 version fix [PR 61](https://github.com/vultr/vultr-cli/pull/61)
+
+## [v0.1.9](https://github.com/vultr/vultr-cli/compare/v0.1.8..v0.1.9) (2019-11-11)
+### Enhancements
+* Updating dependency versions  [PR 59](https://github.com/vultr/vultr-cli/pull/59)
+* GoVultr v0.1.6 now supports retry [PR 59](https://github.com/vultr/vultr-cli/pull/59)
+
+## [v0.1.8](https://github.com/vultr/vultr-cli/compare/v0.1.7..v0.1.8) (2019-10-17)
+### Bug fix
+* Fix for goreleaser to release homebrew tap  [PR 57](https://github.com/vultr/vultr-cli/pull/57)
+
+## [v0.1.7](https://github.com/vultr/vultr-cli/compare/v0.1.6..v0.1.7) (2019-10-17)
+### Enhancements
+* Bump GoVultr to v0.1.5 [PR 55](https://github.com/vultr/vultr-cli/pull/55)
+
+  
+## [v0.1.6](https://github.com/vultr/vultr-cli/compare/v0.1.5..v0.1.6) (2019-09-04)
+### Enhancements
+* Print the original API error messages in [PR 50](https://github.com/vultr/vultr-cli/pull/50) && [PR 52](https://github.com/vultr/vultr-cli/pull/52)
+  * application
+  * plans
+  * regions
+  * user
+
+## [v0.1.5](https://github.com/vultr/vultr-cli/compare/v0.1.4..v0.1.5) (2019-09-03)
+### Enhancements
+* Add contextual instructions for Vultr API key setup [PR 47](https://github.com/vultr/vultr-cli/pull/47)
+
+## [v0.1.4](https://github.com/vultr/vultr-cli/compare/v0.1.3..v0.1.4) (2019-08-26)
+### Enhancements
+* Makefile entry for gofmt [PR 44](https://github.com/vultr/vultr-cli/pull/44)
+* New command `script contents` will display contents of a given script  [PR 43](https://github.com/vultr/vultr-cli/pull/43)
+
+## [v0.1.3](https://github.com/vultr/vultr-cli/compare/v0.1.2..v0.1.3) (2019-08-21)
+### Bug Fixes
+* Quote handling on DNS Record Data [PR #41](https://github.com/vultr/vultr-cli/pull/41)
+  
 ## [v0.1.2](https://github.com/vultr/vultr-cli/compare/v0.1.1..v0.1.2) (2019-07-15)
 ### Dependencies
 * Updated dependencies [PR #35](https://github.com/vultr/vultr-cli/pull/35)

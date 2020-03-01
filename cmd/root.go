@@ -100,10 +100,11 @@ func initConfig() {
 func initClient() {
 	key := os.Getenv("VULTR_API_KEY")
 	if key == "" {
-		fmt.Println("Please export your VULTR API Key")
+		fmt.Println("Please export your VULTR API key as an environment variable, eg:")
+		fmt.Println("export VULTR_API_KEY='<api_key_from_vultr_account>'")
 		os.Exit(1)
 	}
 
 	client = govultr.NewClient(nil, key)
-	client.RateLimit = 1 * time.Millisecond
+	client.SetRateLimit(1 * time.Second)
 }
